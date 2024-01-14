@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    color: #373737;
+    background: white;
+    transition: all .3s ease;
+}
+.dark-mode {
+    color: white;
+    background: #373737;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+.btn {
+    cursor: pointer;
+    float: right;
+}
+
+.logo {
+    height: 150px;
+    width: 300px;
+    display: block; /* Зробити картинку блоковим елементом, щоб мати можливість використовувати margin:auto; */
+    margin: auto;    /* Автоматичний розподіл відступів, центрує по горизонталі */
+}
